@@ -12,15 +12,18 @@ XF86AudioMute
 
 #Play the next song 
 XF86AudioNext
-    mpc next
+    mpc next; pkill -36 dwmblocks
+
 
 #Play the previous song 
 XF86AudioPrev
-    mpc prev
+    mpc prev; pkill -36 dwmblocks
+
 
 #Play/Pause the current song 
 XF86AudioPlay
-    mpc toggle
+    mpc toggle; pkill -36 dwmblocks
+
 
 #Increase Brightness
 XF86MonBrightnessUp
