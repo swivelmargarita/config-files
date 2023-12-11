@@ -1,3 +1,4 @@
+vim.opt.shada = "'1000,f1,<500"
 vim.opt.clipboard = "unnamedplus"               -- allows neovim to access the system clipboard
 vim.opt.scrolloff = 8                           -- start scrolling when 8 lines left to bottom or top
 vim.opt.sidescrolloff = 16
@@ -25,4 +26,3 @@ vim.opt.wrap = false                            -- display lines as one long lin
 vim.opt.signcolumn = "number"                    -- always show the sign column, otherwise it would shift the text each time
 vim.opt.shortmess:append "c"
 vim.opt.completeopt = { "menuone", "noselect" } -- mostly just for cmp
-
